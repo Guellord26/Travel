@@ -1,0 +1,223 @@
+/* ================= modale ====================== */
+
+
+/* //========== Menu mobile ========// */
+
+    body{
+      /* background: #f2f2f2; */
+      font-family: 'Open Sans', sans-serif;
+    }
+    .jungo-container .jungo-body-content{
+      padding-bottom: 110px;
+      height: 1000px;
+      
+    }
+    .search {
+      width: 100%;
+      display: flex;
+    }
+
+    .searchTerm {
+      width: 100%;
+      border: 3px solid #dd590cf8;
+      border-right: none;
+      padding: 5px;
+      height: 40px;
+      border-radius: 5px 0 0 5px;
+      outline: none;
+      color: #9DBFAF;
+      font-size: 18px;
+    }
+
+    .searchTerm:focus{
+      color: #dd590cf8;
+    }
+
+    .searchButton {
+      width: 40px;
+      height: 40px;
+      border: 1px solid #ff5400;
+      text-align: center;
+      color: white;
+      border-radius: 0 5px 5px 0;
+      cursor: pointer;
+      font-size: 20px;
+    }
+
+    /*Resize the wrap to see the search bar change!*/
+    .wrap{
+      width: 90%;
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+
+/* //===============================// */
+.nav-wrapper a{
+  display: inline-block;
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 40px;
+}
+.w3-card-2{
+  height: 70px;
+}
+
+.logo a{
+  font-size: 30px;
+   
+}
+.w3-navbar li a {
+    padding: 10px;
+    float: left;
+}
+.w3-navbar li .auth {
+  
+  float: left;
+  height: 44px;
+}
+.w3-navbar li  {
+  margin-left: 26px;
+  margin-right: 26px;
+}
+.w3-left a{
+  font-size: 24px;
+  padding: 10px;
+}
+nav a{
+  font-size: 24px;
+}
+.btn{
+    margin-top: 25px;
+    margin: 0 5px;
+}
+li i{
+  font-size: 25px;
+}
+.w3-hide-small{
+  display: inline;
+}
+
+/*  ==================== */
+button i{
+  font-size: 26px !important;
+}
+/* ======== Navbar Animation ======== */
+@media only screen and (min-width: 768px) {
+ .recherche-form form{
+  position: relative;
+  top: 50%;
+  left: 50%;                
+  transform: translate(-50%,-50%);
+  transition: all 1s;
+  width: 50px;
+  height: 50px;
+  background: white;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 4px solid white;
+  padding: 5px;
+}
+
+.recherche-form input{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;;
+  height: 42.5px;
+  line-height: 30px;
+  outline: 0;
+  border: 0;
+  display: none;
+  font-size: 1em;
+  border-radius: 20px;
+  padding: 0 20px;
+}
+
+.bar_searc .fa{
+  box-sizing: border-box;
+  padding: 10px;
+  width: 42.5px;
+  height: 42.5px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+  color: #ff6106;
+  text-align: center;
+  font-size: 30px;
+  transition: all 1s;
+}
+
+.recherche-form form:hover{
+  width: 400px;
+  cursor: pointer;
+  border: 2px solid #ff6106;
+}
+
+.recherche-form form:hover input{
+  display: block;
+}
+
+.recherche-form form:hover .fa{
+  color: #f76504;
+} 
+
+/*================ Side Nav ===============*/
+
+.gm-bar_searc form{
+transform: translate(-50%,-50%);
+transition: all 1s;
+height: 40px;
+background: white;
+box-sizing: border-box;
+border-radius: 10px;
+border: 2px solid white;
+padding: 5px;
+}
+
+.gm-bar_searc input{
+
+top: 10;
+width: 100%;;
+height: 25px;
+line-height: 25px;
+font-size: 1em;
+border-radius: 10px;
+
+}
+
+.gm-bar_searc .fa{
+box-sizing: border-box;
+padding: 10px;
+width: 42.5px;
+height: 42.5px;
+position: absolute;
+top: 0;
+right: 0;
+border-radius: 50%;
+color: #ff6106;
+text-align: center;
+
+font-size: 25px;
+transition: all 1s;
+}
+
+.gm-bar_searc form{
+width: 270px;
+margin-left: 150px;
+cursor: pointer;
+border: 1px solid #ff6106;
+}
+
+.gm-bar_searc form:hover input{
+display: block;
+}
+
+.gm-bar_searc form:hover .fa{
+
+color: #f76504;
+}
+}

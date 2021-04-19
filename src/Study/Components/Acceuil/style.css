@@ -1,0 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
+ .lectureJosefin {
+    font-family: 'Josefin Sans', cursive;
+  }
+  .lectureAnton {
+    font-family: 'Anton', sans-serif;
+  }
+  .lecturePT {
+  font-family: 'PT Sans', sans-serif;
+  }
+.mukta{
+    font-family: 'Mukta', sans-serif;
+}
